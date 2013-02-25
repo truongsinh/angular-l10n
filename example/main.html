@@ -1,0 +1,12 @@
+<div ng-app="translatetest" ng-controller="TestCtrl">
+    <div translate>Hello World!</div>
+    <input ng-model="user">
+    <div translate>Hello {{user}}!</div>
+    <translate>Hello {{user}}!</translate>
+    <div translate>Look at the JavaScript console!</div>
+    <div>
+        <input ng-model="personCount">
+        <ng-pluralize translate="when" count="personCount" when="{'0': 'Nobody is viewing.','one': '1 person is viewing.','other': '{} people are viewing.'}"></ng-pluralize>
+    </div>
+    <div translate>Message: {{message}}</div>
+</div>

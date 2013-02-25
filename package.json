@@ -1,0 +1,16 @@
+{
+  "name": "Angular-l10n",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "",
+    "grunt-contrib-coffee": "",
+    "grunt-coffeelint": "git://github.com/truongsinh/grunt-coffeelint.git#dev",
+    "matchdep": "",
+    "gruntacular": ""
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
